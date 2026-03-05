@@ -34,3 +34,5 @@ namespace Lab7Test.Green
             _studentS = _inputGroups.SelectMany(g => g.Students)
                                      .Select(s => new Lab7.Green.Task5.Student(s.Name, s.Surname))
                                      .ToArray();
+        }
+
